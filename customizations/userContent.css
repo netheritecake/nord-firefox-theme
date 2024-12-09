@@ -4,7 +4,7 @@
 }
 
 /* General Body Styling */
-@-moz-document url(about:blank), url(file:///D:/NetheriteCake/My%20Stuff/Code/Firefox/index.html)
+@-moz-document url(about:blank), url(https://netheritecake.github.io/nord-firefox-theme/)
 {
   body {
     background-color: #2e3440 !important; /* Polar Night dark background */
