@@ -1,0 +1,12 @@
+.logo {
+  position: absolute;
+  width: 300px; /* Adjust size as needed */
+  top: 15%; /* Adjust positioning */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+/* who needs the search bar anyways */
+.non-collapsible-section {
+  display: none !important;
+}

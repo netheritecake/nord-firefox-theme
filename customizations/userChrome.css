@@ -1,0 +1,71 @@
+/* Adjust Font Family */
+body,
+.urlbar-input-box {
+  font-family: "Inter", sans-serif !important;
+}
+
+/* Hide the Personal Toolbar */
+#PersonalToolbar {
+  display: none;
+}
+
+/* Sidebar Customization */
+#sidebar-box {
+  --uc-sidebar-width: 360px;
+
+  position: relative;
+  min-width: var(--uc-sidebar-width) !important;
+  width: var(--uc-sidebar-width) !important;
+  max-width: var(--uc-sidebar-width) !important;
+  z-index: 3;
+}
+
+/* hiding the new tab button */
+#tabbrowser-arrowscrollbox-periphery {
+  display: none;
+}
+
+/* Hide the dropdown text thing when searching */
+#PersonalToolbar {
+  display: none;
+}
+.urlbarView {
+  display: none !important;
+}
+
+/* Hide the extensions and other stuff button */
+#unified-extensions-button {
+  display: none;
+}
+#ublock0_raymondhill_net-BAP {
+  display: none;
+}
+.titlebar-spacer {
+  display: none;
+}
+
+/* Centering the URL Bar */
+#nav-bar-customization-target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#urlbar-container {
+  max-width: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto !important;
+}
+
+#sidebar-button {
+  margin-right: auto !important;
+}
+
+.urlbar-input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
