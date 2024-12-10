@@ -43,6 +43,9 @@ body,
 .titlebar-spacer {
   display: none;
 }
+#newtaboverride_agenedia_com-BAP {
+  display: none;
+}
 
 /* Centering the URL Bar */
 #nav-bar-customization-target {

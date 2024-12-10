@@ -4,14 +4,9 @@
 }
 
 /* General Body Styling */
-@-moz-document url(about:blank), url(https://netheritecake.github.io/nord-firefox-theme/)
-{
+@-moz-document url(about:blank) {
   body {
     background-color: #2e3440 !important; /* Polar Night dark background */
     color: #eceff4 !important; /* Snow Storm light text */
-  }
-
-  * {
-    transition: all 0.3s ease !important; /* Add smooth transitions globally */
   }
 }
