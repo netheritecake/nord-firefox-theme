@@ -4,10 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Home</title>
   </head>
   <body>
-    <img class="logo" src="Logo/firefox-logo.png" />
+    <div class="wrapper">
+      <div class="greeting-card">
+        <h1 id="greeting"></h1>
+        <p id="time"></p>
+        <p id="date"></p>
+      </div>
+      <div class="logo-container">
+        <img class="logo" src="imgs/firefox-logo.png" alt="Firefox Logo" />
+      </div>
+      <div class="links-card">
+        <h1 class="quick-access">Quick Access</h1>
+        <ul class="links">
+          <li><a href="https://www.youtube.com">youtube</a></li>
+          <li><a href="https://chat.openai.com">chatgpt</a></li>
+          <li><a href="https://discord.com">discord</a></li>
+          <li><a href="https://www.reddit.com">reddit</a></li>
+          <li><a href="https://lichess.org">lichess</a></li>
+          <li><a href="https://www.duolingo.com">duolingo</a></li>
+          <li><a href="https://github.com">github</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
