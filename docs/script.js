@@ -52,7 +52,7 @@ function getFormattedDate() {
     }
   };
 
-  return `${dayOfWeek}, ${day}${ordinalSuffix(day)} of ${month}`;
+  return `${dayOfWeek}, ${day}${ordinalSuffix(day)} ${month}`;
 }
 
 console.log(getFormattedDate());
