@@ -136,3 +136,9 @@ a:hover {
   opacity: 1;
   font-size: var(--font-size-hovered);
 }
+
+/* fixing the weird link bug thing */
+.links {
+  width: 6.2vw;
+  min-height: 62px;
+}
