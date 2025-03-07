@@ -5,10 +5,12 @@
   --border-color: #3b4252;
   --gradient-start: #5e81ac;
   --gradient-end: #88c0d0;
-  --font-size-small: clamp(15px, 1.5vw, 1.5rem); /* for links and date */
+  --card-size: 22.5vw;
+  --min-card-size: 225px;
+  --font-size-small: clamp(15px, 1.5vw, 1.5rem); /* for date */
   --font-size-medium: clamp(20px, 2vw, 2rem); /* for the headings */
   --font-size-large: clamp(40px, 4vw, 4rem); /* for the time */
-  --font-size-hovered: clamp(16px, 1.6vw, 1.6rem); /* hovering over links */
+  --icon-size: 30%;
 }
 
 /* Adding some transitions */
@@ -73,10 +75,10 @@ body {
 /* the cards */
 .greeting-card,
 .links-card {
-  width: 22.5vw;
-  height: 22.5vw;
-  min-width: 225px;
-  min-height: 225px;
+  width: var(--card-size);
+  height: var(--card-size);
+  min-width: var(--min-card-size);
+  min-height: var(--min-card-size);
   background-color: var(--card-color);
   border: var(--border-color) 4px solid;
   border-radius: 24px;
@@ -90,13 +92,6 @@ body {
 .links-card {
   justify-content: start;
   align-items: center;
-}
-
-/* typography */
-h1 {
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-size: var(--font-size-medium);
 }
 
 .quick-access {
@@ -114,6 +109,13 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* typography */
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: var(--font-size-medium);
 }
 
 #time {
@@ -141,11 +143,9 @@ li,
 }
 
 a {
-  color: var(--font-color);
   opacity: 0.5;
-  font-size: var(--font-size-small);
-  width: 30%;
-  height: 30%;
+  width: var(--icon-size);
+  height: var(--icon-size);
   display: flex;
   justify-content: center;
   padding: 4%;
@@ -153,5 +153,5 @@ a {
 
 a:hover {
   opacity: 1;
-  font-size: var(--font-size-hovered);
+  padding: 3%;
 }
